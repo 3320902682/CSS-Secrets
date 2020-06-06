@@ -1,0 +1,22 @@
+<!--半透明边框-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body style="background: black">
+<div></div>
+
+<style>
+    div {
+        width: 100px;
+        height: 100px;
+        background: #66bb00;
+        border: 10px solid hsla(0, 0%, 100%, .5);
+        background-clip: padding-box;       //使底色不会入侵到边框区域
+    }
+</style>
+</body>
+
+</html>

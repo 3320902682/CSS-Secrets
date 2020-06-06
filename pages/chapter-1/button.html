@@ -1,3 +1,4 @@
+<!--遵循DRY规则的按钮-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,12 +19,14 @@
         text-shadow: 0 -.05em .05em #335166;
         font-size: 125%;
         line-height: 1.5;
+        outline: none;
     }
     .cancel {
         background-color: #c00;
     }
     .ok {
-        background-color: #6b0;
+        --color:  #6b0;
+        background-color: var(--color);
     }
 </style>
 </body>
