@@ -1,0 +1,25 @@
+<!--连续的背景边框-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div></div>
+
+<style>
+    div{
+        box-sizing: border-box;
+        height: 100%;
+        padding: 1em;
+        border: 1em solid transparent;
+        background: linear-gradient(white,white 0),
+        url("../../assets/images/backgroup-image.png");
+        background-size: cover;
+        background-clip: padding-box,border-box;
+        background-origin: border-box;
+    }
+</style>
+</body>
+</html>

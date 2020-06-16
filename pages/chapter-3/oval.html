@@ -1,0 +1,44 @@
+<!--自适应椭圆-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="div1"></div>
+<br>
+<div class="div2"></div>
+<br>
+<div class="div3"></div>
+<br>
+<div class="div4"></div>
+<style>
+    div {
+        width: 200px;
+        height: 150px;
+        background: yellow;+
+    }
+
+    /*椭圆*/
+    .div1 {
+        border-radius: 50%/50%; /*简写   border-radius: 50% */
+    }
+
+    /*半椭圆*/
+    .div2 {
+        border-radius: 50%/100% 100% 0 0;
+    }
+
+    /*半椭圆*/
+    .div3 {
+        border-radius: 100% 0 0 100%/50%;
+    }
+
+    /*半椭圆*/
+    .div4 {
+        border-radius: 100% 0 0 0;
+    }
+</style>
+</body>
+</html>

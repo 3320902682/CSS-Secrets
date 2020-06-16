@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bd4d33d-241f-4587-a252-acd02a397060" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/chapter-2/More-complex-background-patterns.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/chapter-2/backgroup-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/chapter-2/backgroup-position.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/chapter-2/backgroup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/chapter-2/bar-background.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/chapter-2/box-shadow+outline.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/chapter-2/box-shadow.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/chapter-2/outline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/backgroup-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chapter-2/checkerboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chapter-2/fakeRandomBackgroup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chapter-2/imageBorder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chapter-2/wavePoint.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chapter-3/cornerCut.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chapter-3/oval.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chapter-3/rhomboid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chapter-3/rhombusImage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chapter-3/trapezoid.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/chapter-1/button-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/chapter-1/button.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/chapter-2/More-complex-background-patterns.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/chapter-2/More-complex-background-patterns.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,35 +28,37 @@
     <session id="1593379303">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="3" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="11" />
-          <entry key="js" value="1" />
+          <entry key="html" value="24" />
+          <entry key="js" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="11" />
-          <entry key="JavaScript" value="1" />
+          <entry key="HTML" value="24" />
+          <entry key="JavaScript" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1185" />
+          <entry key="html" value="3131" />
           <entry key="js" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1185" />
+          <entry key="HTML" value="3131" />
           <entry key="JavaScript" value="49" />
         </counts>
       </usages-collector>
@@ -63,11 +66,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/chapter-2/More-complex-background-patterns.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/chapter-3/oval.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            <state relative-caret-position="33">
+              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/chapter-3/cornerCut.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="24" column="57" lean-forward="true" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/chapter-3/trapezoid.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="409">
+              <caret line="50" column="45" lean-forward="true" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/chapter-3/rhombusImage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="466">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="17" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/chapter-3/rhomboid.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="957">
+              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -81,6 +120,11 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>div3</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -100,6 +144,15 @@
         <option value="$PROJECT_DIR$/pages/chapter-2/box-shadow+outline.html" />
         <option value="$PROJECT_DIR$/pages/chapter-2/bar-background.html" />
         <option value="$PROJECT_DIR$/pages/chapter-2/More-complex-background-patterns.html" />
+        <option value="$PROJECT_DIR$/pages/chapter-2/wavePoint.html" />
+        <option value="$PROJECT_DIR$/pages/chapter-2/checkerboard.html" />
+        <option value="$PROJECT_DIR$/pages/chapter-2/fakeRandomBackgroup.html" />
+        <option value="$PROJECT_DIR$/pages/chapter-2/imageBorder.html" />
+        <option value="$PROJECT_DIR$/pages/chapter-3/oval.html" />
+        <option value="$PROJECT_DIR$/pages/chapter-3/rhomboid.html" />
+        <option value="$PROJECT_DIR$/pages/chapter-3/rhombusImage.html" />
+        <option value="$PROJECT_DIR$/pages/chapter-3/cornerCut.html" />
+        <option value="$PROJECT_DIR$/pages/chapter-3/trapezoid.html" />
       </list>
     </option>
   </component>
@@ -133,19 +186,23 @@
             <path>
               <item name="CSS Secrets" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSS Secrets" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSS Secrets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSS Secrets" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CSS Secrets" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSS Secrets" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter-1" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter-3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CSS Secrets" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSS Secrets" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter-2" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -164,6 +221,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\WebProject\demos\CSS Secrets\assets\images" />
       <recent name="C:\WebProject\demos\CSS Secrets\pages\chapter-2" />
     </key>
   </component>
@@ -196,11 +254,15 @@
       <workItem from="1591253368813" duration="3798000" />
       <workItem from="1591316786309" duration="6786000" />
       <workItem from="1591403645368" duration="25000" />
+      <workItem from="1592181286759" duration="13218000" />
+      <workItem from="1592223238516" duration="600000" />
+      <workItem from="1592269160233" duration="87000" />
+      <workItem from="1592269722000" duration="11037000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29413000" />
+    <option name="totallyTimeSpent" value="54355000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -236,13 +298,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/DomUtil.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -297,8 +352,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/chapter-2/More-complex-background-patterns.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        <state relative-caret-position="330">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/DomUtil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/chapter-2/imageBorder.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/chapter-2/fakeRandomBackgroup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="14" column="57" lean-forward="true" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/chapter-2/checkerboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/chapter-2/wavePoint.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/chapter-3/oval.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/chapter-3/rhomboid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="957">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/chapter-3/rhombusImage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/chapter-3/cornerCut.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="24" column="57" lean-forward="true" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/chapter-3/trapezoid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="50" column="45" lean-forward="true" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
         </state>
       </provider>
     </entry>

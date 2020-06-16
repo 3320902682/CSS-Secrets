@@ -1,0 +1,33 @@
+<!--平行四边形-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    GOOD
+</div>
+
+<style>
+    div{
+        margin-left: 100px;
+        width: 200px;
+        height: 100px;
+        position: relative;
+    }
+    div::before{
+        z-index: -1;
+        background: #5588aa;
+        position: absolute;
+        content: "";
+        top: 0;
+        bottom:0;
+        left: 0;
+        right: 0;
+        transition: 1s clip-path;
+    }
+</style>
+</body>
+</html>

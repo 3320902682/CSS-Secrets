@@ -1,0 +1,65 @@
+<!--梯形-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>12312312312</div>
+<div>12312312</div>
+<div><a href="#">A</a></div>
+
+</body>
+<style>
+    body{
+        padding: 100px;
+    }
+    div{
+        margin-top: 20px;
+        width: 200px;
+        height: 100px;
+    }
+
+    div:nth-child(1){
+        background: #58a;
+        transform: perspective(1em) rotateX(5deg);
+    }
+
+    div:nth-child(2){
+        text-align: center;
+        position: relative;
+    }
+    div:nth-child(2)::before{
+        content: ''; /* 用伪元素来生成一个矩形 */
+        position: absolute;
+        top: 0; right: 0; bottom: 0; left: 0;
+        z-index: -1;
+        background:  #58a;
+        transform: scaleY(1.5) perspective(1em) rotateX(5deg);
+        transform-origin: bottom;
+    }
+
+    div:nth-child(3) > a {
+        position: relative;
+        display: inline-block;
+        padding: .3em 1em 0;
+    }
+    div:nth-child(3) > a::before {
+        content: '';
+        position: absolute;
+        top: 0; right: 0; bottom: 0; left: 0;
+        z-index: -1;
+        background: #ccc;
+        background-image: linear-gradient(
+                hsla(0,0%,100%,.6),
+                hsla(0,0%,100%,0));
+        border: 1px solid rgba(0,0,0,.4);
+        border-bottom: none;
+        border-radius: .5em .5em 0 0;
+        box-shadow: 0 .15em white inset;
+        transform: perspective(.5em) rotateX(5deg);
+        transform-origin: left;
+    }
+</style>
+</html>
