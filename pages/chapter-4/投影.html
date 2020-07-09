@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>投影</title>
+</head>
+
+<body>
+    <div class="unilateral"></div>
+    <div class="side"></div>
+    <div class="bilateral"></div>
+
+    <style>
+        div {
+            background: yellow;
+            width: 200px;
+            height: 100px;
+            margin: 10px;
+        }
+
+        /* 单侧投影 */
+        .unilateral {
+            box-shadow: 0px 4px 4px -4px black;
+        }
+
+        /* 邻边投影 */
+        .side {
+            box-shadow: 2px 2px 4px -2px black;
+        }
+
+        /* 双侧投影  用两个单侧投影拼凑 */
+        .bilateral {
+            box-shadow: 5px 0px 5px -5px black,
+                -5px 0px 5px -5px black;
+        }
+    </style>
+</body>
+
+</html>
