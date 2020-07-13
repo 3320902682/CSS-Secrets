@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>hello</div>
+    <div class="bubble">hello</div>
+    <style>
+        div {
+            float: left;
+            border: solid 1px black;
+            width: auto;
+            min-height: 30px;
+            min-width: 100px;
+            margin: 10px;
+            /* 投影，针对一切透明的像素，包括布局内部 */
+            filter: drop-shadow(2px 3px 3px black);
+        }
+
+        /* 气泡 */
+        .bubble {
+            background: greenyellow;
+            position: relative;
+            border-radius: 10px;
+            padding: 5px;
+            border: none;
+        }
+
+        .bubble::after {
+            right: -10px;
+            top: 10px;
+            content: "";
+            display: block;
+            position: absolute;
+            background: inherit;
+            width:10px;
+            height: 20px;
+            clip-path: polygon(0 0, 100% 50%, 0 100%);
+        }
+    </style>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <img src="../../assets/images/backgroup-image.png" class="black-white">
+    <img src="../../assets/images/backgroup-image.png" class="dye">
+    <div class="tinted-image"></div>
+</body>
+<style>
+    img {
+        transition: 1s filter;
+    }
+
+    img:hover {
+        filter: none;
+
+    }
+
+    .black-white {
+        filter: grayscale(100%);
+    }
+
+    .dye {
+        filter: sepia(100%) saturate(400%) hue-rotate(295deg);
+    }
+
+    /* 混合模式染色 */
+    .tinted-image {
+        width: 640px;
+        height: 440px;
+        background-image: url("../../assets/images/backgroup-image.png");
+        background-size: cover;
+        background-color: hsl(335, 100%, 50%);
+        background-blend-mode: luminosity;
+        transition: 1s background-color;
+    }
+    .tinted-image:hover{
+        background-color: transparent;
+        animation: 1s identifier linear infinite;
+    }
+
+</style>
+
+</html>
