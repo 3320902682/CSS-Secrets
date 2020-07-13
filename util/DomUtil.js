@@ -1,9 +1,5 @@
-export default class DomUtil {
-    static $$(selector, context){
-        function $$(selector, context) {
-            context = context || document;
-            let elements = context.querySelectorAll(selector);
-            return Array.prototype.slice.call(elements);
-        }
-    }
+function $$(selector, context) {
+    context = context || document;
+    let elements = context.querySelectorAll(selector);
+    return Array.prototype.slice.call(elements);
 }
