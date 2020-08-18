@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bd4d33d-241f-4587-a252-acd02a397060" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/chapter-4/折角效果.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/chapter-5/插入换行.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/chapter-5/文本行的斑马条纹.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/chapter-5/现实中的文字效果.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/chapter-5/连字符断行.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chapter-6/交互式的图片对比控件-resize方案.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chapter-6/交互式的图片对比控件-范围输入控件方案.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chapter-6/滚动提示.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chapter-7/自适应内部布局.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chapter-8/avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chapter-8/loader.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chapter-8/打字动画.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chapter-8/沿环形路径平移的动画-单元素实现.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chapter-8/沿环形路径平移的动画.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chapter-8/缓动效果-弹性过渡.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chapter-8/缓动效果-弹跳效果.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chapter-8/逐帧动画.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chapter-8/闪烁效果.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -44,13 +51,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages/chapter-8" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\WebProject\demos\CSS Secrets\pages\chapter-8" />
       <recent name="C:\WebProject\demos\CSS Secrets\assets\images" />
       <recent name="C:\WebProject\demos\CSS Secrets\pages\chapter-2" />
     </key>
@@ -79,11 +88,31 @@
       <workItem from="1593230786101" duration="404000" />
       <workItem from="1593231406736" duration="7110000" />
       <workItem from="1594686475648" duration="387000" />
-      <workItem from="1596074501035" duration="4855000" />
+      <workItem from="1596074501035" duration="5456000" />
+      <workItem from="1597288282746" duration="64000" />
+      <workItem from="1597288496071" duration="4064000" />
+      <workItem from="1597461844815" duration="6972000" />
+      <workItem from="1597627628653" duration="13723000" />
+      <workItem from="1597658521924" duration="7000" />
+      <workItem from="1597712178596" duration="2624000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="586" y="198" key="#Inspections" timestamp="1597713233735">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1597713233735" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1597628224194">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597628224194" />
+    <state x="802" y="201" key="SettingsEditor" timestamp="1597634892601">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="802" y="201" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597634892601" />
   </component>
 </project>

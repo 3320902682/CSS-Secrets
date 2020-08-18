@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  <h1>CSS is awesome!</h1>
+
+  <script>
+    var h1 = document.querySelector("h1");
+    var len = h1.textContent.length, s = h1.style;
+    s.width = len + 'ch';
+    s.animationTimingFunction = "steps(" + len + "),steps(1)";
+  </script>
+
+  <style>
+    @keyframes typing {
+      from {
+        width: 0
+      }
+    }
+
+    @keyframes caret {
+      50% {
+        border-color: transparent;
+      }
+    }
+
+    h1 {
+      color: ;
+      white-space: nowrap;
+      overflow: hidden;
+      font-family: Consolas, Monaco, monospace; /*等宽字体*/
+      border-right: .05em solid;
+      animation: typing 6s, caret 1s infinite;
+    }
+  </style>
+</body>
+</html>

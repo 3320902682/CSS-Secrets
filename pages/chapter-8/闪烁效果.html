@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  <span class="highlight">闪烁</span>
+
+
+  <style>
+    /*平滑的闪烁*/
+    /*@keyframes blink-smooth {*/
+    /*  to {*/
+    /*    color: transparent*/
+    /*  }*/
+    /*}*/
+
+    /*.highlight {*/
+    /*  animation: .5s blink-smooth 6 alternate;*/
+    /*}*/
+    /*平滑的闪烁 end*/
+
+    /*普通闪烁*/
+    @keyframes blink { 50% { color: transparent } }
+    .highlight {
+      animation: 1s blink 3 steps(1);
+    }
+  </style>
+</body>
+</html>

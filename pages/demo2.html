@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div style="margin-top: 100px;margin-left: 100px;"></div>
+    <style>
+        div {
+            width: 1000PX;
+            height: 50PX;
+            background: linear-gradient(-45deg,
+                    #fb3 12.5%, #58a 0, #58a 25%,black 0,black 37.5%, red 0,red 50%,
+                     #fb3 0,#fb3 62.5%, #58a 0, #58a 75%,black 0,black 87.5%,red 0,red 100%);
+            background-size: 50px 50px;
+            animation:  my-animation 1s linear infinite;
+        }
+
+        @keyframes my-animation {
+           to{
+               background-position: 50PX;
+           }
+        }
+    </style>
+</body>
+
+</html>

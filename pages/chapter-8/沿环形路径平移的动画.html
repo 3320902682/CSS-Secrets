@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  <div class="path">
+    <div class="avatar">
+      <img src="./avatar.jpg" alt="头像"/>
+    </div>
+  </div>
+
+  <style type="text/css">
+    @keyframes spin {
+      to {
+        transform: rotate(1turn)
+      }
+    }
+
+    .path{
+      width: 300px; height: 300px;
+      padding: 20px;
+      border-radius: 50%;
+      background: #fb3;
+    }
+
+    .avatar {
+      width: 50px;
+      margin: 0 auto;
+      border-radius: 50%;
+      overflow: hidden;
+      animation: spin 5s infinite linear;
+      transform-origin: 50% 150px; /* 150px = 路径的半径 */
+    }
+
+    .avatar > img {
+      display: block;
+      width: inherit;
+      animation: inherit;
+      animation-direction: reverse;
+    }
+
+
+
+  </style>
+</body>
+</html>
